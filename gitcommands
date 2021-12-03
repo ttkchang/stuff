@@ -1,0 +1,26 @@
+1. From the repository, we create a branch.
+2. Clone this repository local:
+git clone depository URL. (we get from bitbucket)
+3. Go to the branch
+cd sso-*
+git checkout feature/CREDAAS-72-creae-application [full Branchname from bitbucket]
+4. Do our changes here - i.e. modify json.
+5. (git status, maybe)
+6. git add . or git add filename
+7. git commit -m "Jira Ticket and then message"
+8. git push
+(Git config)
+link to git commands
+pwd
+
+"OIDC_UX162546_ESF_VANGUARD_create_auth_server_POC_eng.json"
+"OIDC_UX162546_ESF_VANGUARD_add_claims_POC_eng.json"
+
+To deploy:
+in bitbucket.
+while in branch, click on the "commit" icon on the left.
+on the right hand click on the "build" green success icon.
+choose your branch name. click on it.
+click *** dployemtn.
+XXX to createright into deploey
+"new release" select your branch.
